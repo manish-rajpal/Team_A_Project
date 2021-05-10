@@ -19,7 +19,7 @@ pipeline {
                                                 sleep(10)
                                                 	script {
                                                         try {
-                                                			sh 'newman run Spring_PetClinic_Copy.postman_collection.json --environment PetClinic_Environment.postman_environment.json --reporters junit'
+                                                			sh 'newman run PetClinic_01_collection.json --environment PetClinic_01_environment.json --reporters junit'
                                                 		}
                                                 		catch (Exception e) {
                                                              echo "Tests are failing, continue pipeline..."
