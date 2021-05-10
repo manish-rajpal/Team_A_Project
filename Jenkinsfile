@@ -12,13 +12,12 @@ pipeline {
                  stage('angular'){
                               steps{
                                     sh 'cd spring-petclinic-angular/static-content && curl https://jcenter.bintray.com/com/athaydes/rawhttp/rawhttp-cli/1.0/rawhttp-cli-1.0-all.jar -o rawhttp.jar &&  nohup java -jar ./rawhttp.jar serve . -p 4200 &'
-				    sleep(20)  
+				    sleep(3)  
                               }
                 }
                 stage('Newman by Postman') {
                                             steps {
-                                                sleep(10)
-                                                	script {
+                                               	script {
                                                         try {
                                                 		sh 'newman run PetClinic_01_collection.json --environment PetClinic_01_environment.json --reporters junit'
                                                 		}
