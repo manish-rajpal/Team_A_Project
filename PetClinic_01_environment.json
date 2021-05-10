@@ -1,0 +1,159 @@
+{
+	"id": "dd5e3918-f5ed-4594-8c11-080b948b9a27",
+	"name": "PetClinic_Environment",
+	"values": [
+		{
+			"key": "url",
+			"value": "http://localhost:9966/petclinic/api",
+			"enabled": true
+		},
+		{
+			"key": "fname",
+			"value": "Mona",
+			"enabled": true
+		},
+		{
+			"key": "lname",
+			"value": "Magnus",
+			"enabled": true
+		},
+		{
+			"key": "address",
+			"value": "21 Main St.",
+			"enabled": true
+		},
+		{
+			"key": "city",
+			"value": "Chicago",
+			"enabled": true
+		},
+		{
+			"key": "tele",
+			"value": "2233445500",
+			"enabled": true
+		},
+		{
+			"key": "ownerID",
+			"value": "",
+			"enabled": true
+		},
+		{
+			"key": "Ufname",
+			"value": "Ketty",
+			"enabled": true
+		},
+		{
+			"key": "Ulname",
+			"value": "Karl",
+			"enabled": true
+		},
+		{
+			"key": "Uaddress",
+			"value": "51 Avenue St.",
+			"enabled": true
+		},
+		{
+			"key": "Ucity",
+			"value": "New York",
+			"enabled": true
+		},
+		{
+			"key": "Utele",
+			"value": "4455006677",
+			"enabled": true
+		},
+		{
+			"key": "NPet",
+			"value": "Tyson",
+			"enabled": true
+		},
+		{
+			"key": "NPBday",
+			"value": "2020/09/12",
+			"enabled": true
+		},
+		{
+			"key": "NPTyId",
+			"value": "2",
+			"enabled": true
+		},
+		{
+			"key": "NPTyname",
+			"value": "dog",
+			"enabled": true
+		},
+		{
+			"key": "NPOwId",
+			"value": "1",
+			"enabled": true
+		},
+		{
+			"key": "NPOwfname",
+			"value": "George",
+			"enabled": true
+		},
+		{
+			"key": "NPOwlname",
+			"value": "Franklin",
+			"enabled": true
+		},
+		{
+			"key": "NPOwaddress",
+			"value": "110 W. Liberty St.",
+			"enabled": true
+		},
+		{
+			"key": "NPOwcity",
+			"value": "Madison",
+			"enabled": true
+		},
+		{
+			"key": "NPOwtele",
+			"value": "6085551023",
+			"enabled": true
+		},
+		{
+			"key": "petId",
+			"value": "",
+			"enabled": true
+		},
+		{
+			"key": "UPet",
+			"value": "Kitty",
+			"enabled": true
+		},
+		{
+			"key": "UNPBday",
+			"value": "2021/01/27",
+			"enabled": true
+		},
+		{
+			"key": "UNPTyId",
+			"value": "1",
+			"enabled": true
+		},
+		{
+			"key": "UNPTyname",
+			"value": "cat",
+			"enabled": true
+		},
+		{
+			"key": "PTypeName",
+			"value": "insect",
+			"enabled": true
+		},
+		{
+			"key": "petTypeId",
+			"value": "",
+			"enabled": true
+		},
+		{
+			"key": "UPTypeName",
+			"value": "rabbit",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2021-05-09T21:59:02.649Z",
+	"_postman_exported_using": "Postman/8.3.0"
+}
